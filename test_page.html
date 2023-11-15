@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="hex_style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">  
+	<script>
+		/*to prevent Firefox FOUC, this must be here*/
+		let FF_FOUC_FIX;
+	</script>
+</head>
+<body>
+<div id="appID">app:HexClock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IP: 127.0.01</div>
+<!-- div bg color set by js -->
+<div id="hexClock" class="colorChange"></div>
+
+<!-- div bg color set by js -->
+<h1 class="colorChange">Welcome to HexClock.exe</h1>
+
+<!-- div bg color set by js -->
+<p class="colorChange">
+	As seen in <b>>HACKNET_</b>
+	<br>
+	<br>
+	Why? Why not.
+</p>
+
+
+<!-- js files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"></script>
+<script src="hex_clock.js"></script> 
+
+<!-- calling hexClock() -->
+<script type="text/javascript">
+    hexClock();
+</script>
+
+
+
+
+
+
+</body>
+</html>

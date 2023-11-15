@@ -1,0 +1,64 @@
+/* style for body */
+body {
+	margin: 0px;
+	background-color: #574515;
+	background-image: url("/Images/beehive_640.jpg"); /*background-image: url("https://images.unsplash.com/photo-1613124152913-c180d8c1d740?auto=format&fit=crop&q=80&w=2469&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
+	background-repeat: repeat;
+  }
+
+p test {
+	color: #0c2736;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: #FAF0E6;
+	background-color: #ba4f7a;
+	padding: 10px;
+	margin: 0px;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #FAF0E6;
+	background-color: #ba4f7a;
+	opacity: 0.9;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.colorChange {
+	color: #FAF0E6;
+	background-color: #ba4f7a;
+	opacity: .8;
+	filter:hue-rotate(380deg); 
+}
+#appID {
+	height: auto;
+	width: 210px;
+	background-color: #48325b; 
+	color: #6976ba;
+	text-align: left;
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 0px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1d1623;
+	opacity: 0.9;
+}
+#hexClock {
+	height: auto;
+	width: 190px;
+	color: #FAF0E6;
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	opacity: 0.9;
+}
